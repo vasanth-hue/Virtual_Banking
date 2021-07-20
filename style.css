@@ -1,0 +1,225 @@
+@import url();
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    background: black;
+    padding: 1rem 8rem;
+    z-index: 1000;
+    height: 20mm;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a
+{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: chartreuse;
+    transition: 0.4s;
+}
+#navbarSupportedContent > button{
+    background: white;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+#navbarSupportedContent > button:hover{
+    background: rgb(101, 228, 112);
+    transition: 0.3s;
+}
+.mid {
+    width: 100% ;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.mid video{
+    width:100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%,-50%);
+}
+.hero{
+    position: relative;
+}
+body > header > div > div > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+   
+}
+.mid .hero p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px; 
+     
+}
+.mid .hero a{
+    text-decoration: none;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    padding: 0.7rem 1.4rem;
+    border-radius: 30px;
+}
+.mid .hero a:hover{
+    background:  rgb(101, 228, 112);
+    transition: 0.5s;
+}
+/* ------About --------------- */
+.about{
+    background-color: black;
+
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about .text h6{
+    color: #00bf7f;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+.about .text h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.about .text p{
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+
+}
+.about .text a{
+    text-decoration: none;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    padding: 0.7rem 1.4rem;
+    border-radius: 30px;
+}
+.about .text a:hover{
+    background:  rgb(101, 228, 112);
+    transition: 0.5s;
+}
+
+
+/*       */
+
+.discovery .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.discovery .text h6{
+    color: #00bf7f;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+.discovery .text h2{
+    color: black;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.discovery .text p{
+    color: black;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+.discovery .text a{
+    text-decoration: none;
+    background-color: black;
+    font-weight: 600;
+    color: white;
+    padding: 0.7rem 1.4rem;
+    border-radius: 30px;
+}
+.discovery .text a:hover{
+    background:  rgb(101, 228, 112);
+    transition: 0.5s;
+}
+/* -----------------services------------ */
+.services
+{
+    background-color: black;
+}
+.services .one
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 5mm;
+}
+.services img{
+    width: 50mm;
+    height: 50mm;
+}
+/* -----------signin-------------- */
+.signin .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.signin .text h6{
+    color: #00bf7f;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+.signin .text h2{
+    color: black;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.signin .text p{
+    color: black;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+
+}
+.signin .text a{
+    text-decoration: none;
+    background-color: black;
+    font-weight: 600;
+    color: wheat;
+    padding: 0.7rem 1.4rem;
+    border-radius: 30px;
+}
+.signin .text a:hover{
+    background:  rgb(101, 228, 112);
+    transition: 0.5s;
+}
+/* ------------foooter------------ */
+.page-footer
+{
+    background: black!important;
+}
